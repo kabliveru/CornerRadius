@@ -1,8 +1,7 @@
 //
 //  CornerRadiusApp.swift
-//  Shared
 //
-//  Created by  kabliveru on 23.08.2021.
+//  Created by  kabliveru
 //
 
 import SwiftUI

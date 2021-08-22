@@ -13,6 +13,8 @@
 		BCFEF73326D3191D00BC2971 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFEF71E26D3191C00BC2971 /* ContentView.swift */; };
 		BCFEF73426D3191D00BC2971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFEF71F26D3191D00BC2971 /* Assets.xcassets */; };
 		BCFEF73526D3191D00BC2971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFEF71F26D3191D00BC2971 /* Assets.xcassets */; };
+		BCFEF74026D3197300BC2971 /* CornerRadius+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFEF73F26D3197300BC2971 /* CornerRadius+View.swift */; };
+		BCFEF74126D3197300BC2971 /* CornerRadius+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFEF73F26D3197300BC2971 /* CornerRadius+View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		BCFEF72C26D3191D00BC2971 /* CornerRadius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CornerRadius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFEF72E26D3191D00BC2971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFEF72F26D3191D00BC2971 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BCFEF73F26D3197300BC2971 /* CornerRadius+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CornerRadius+View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 			children = (
 				BCFEF71D26D3191C00BC2971 /* CornerRadiusApp.swift */,
 				BCFEF71E26D3191C00BC2971 /* ContentView.swift */,
+				BCFEF73F26D3197300BC2971 /* CornerRadius+View.swift */,
 				BCFEF71F26D3191D00BC2971 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFEF74026D3197300BC2971 /* CornerRadius+View.swift in Sources */,
 				BCFEF73226D3191D00BC2971 /* ContentView.swift in Sources */,
 				BCFEF73026D3191D00BC2971 /* CornerRadiusApp.swift in Sources */,
 			);
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFEF74126D3197300BC2971 /* CornerRadius+View.swift in Sources */,
 				BCFEF73326D3191D00BC2971 /* ContentView.swift in Sources */,
 				BCFEF73126D3191D00BC2971 /* CornerRadiusApp.swift in Sources */,
 			);
